@@ -4,7 +4,7 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 
 ---
 
-##  System Previews & Interface Showcase
+## 📸 System Previews & Interface Showcase
 
 <details open>
   <summary><b> 1. Authentication & System Control</b></summary>
@@ -12,7 +12,7 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 
   | Login Portal | System Control (Admin) | Change Password |
   | :---: | :---: | :---: |
-  | ![Login Page](./Login%20page%20-%20Copy.png) | ![System Control](./System%20Control%20page%20-%20Copy.png) | ![Change Password](./Change%20password%20page%20-%20Copy.png) |
+  | ![Login Page](./Login%20page.png) | ![System Control](./System%20Control%20page.png) | ![Change Password](./Change%20password%20page.png) |
 
 </details>
 
@@ -24,7 +24,7 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 
   | Admin Executive Dashboard | Coordinator Operations Dashboard |
   | :---: | :---: |
-  | ![Admin Dashboard](./Admin%20dashboard%20-%20Copy.jpg) | ![Coordinator Dashboard](./Coordinator%20dashboard%20page%20-%20Copy.jpg) |
+  | ![Admin Dashboard](./Admin%20dashboard.png) | ![Coordinator Dashboard](./Coordinator%20dashboard%20page.png) |
 
 </details>
 
@@ -36,19 +36,19 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 
   | Student Payment & Billing Form | Payment Setup Page | Payment Summary Logs |
   | :---: | :---: | :---: |
-  | ![Class Payment](./Class%20payments%20%26%20Billing%20-%20Copy.jpg) | ![Payment Setup](./Payment%20setup%20page%20-%20Copy.png) | ![Payment Summary](./Payment%20Summary%20-%20Copy.jpg) |
+  | ![Class Payment](./Class%20payments%20%26%20Billing.png) | ![Payment Setup](./Payment%20setup%20page.png) | ![Payment Summary](./Payment%20Summary.png) |
 
 </details>
 
 <br/>
 
 <details open>
-  <summary><b>📈 4. Financial Reports & Analytics</b></summary>
+  <summary><b> 4. Financial Reports & Analytics</b></summary>
   <br/>
 
   | Admin Financial Report | Coordinator Financial Report |
   | :---: | :---: |
-  | ![Admin Financial Report](./Financial%20reports%20-%20Copy.jpg) | ![Coordinator Financial Report](./C%20financial%20reports%20-%20Copy.png) |
+  | ![Admin Financial Report](./Financial%20reports.png) | ![Coordinator Financial Report](./C%20financial%20reports.png) |
 
 </details>
 
@@ -74,7 +74,7 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 - **Automatic Receipt Generation:** Real-time balance calculation with instant bill receipt generation for students.
 - **Dynamic Fee Setup:** Admin portal to set up and modify tuition fees per grade and course (e.g., A/L English, Grade 6-11 IT/English).
 
-### 3. Real-Time Financial Analytics & Reporting
+###  3. Real-Time Financial Analytics & Reporting
 - **Interactive Visual Charts:** Income vs Date analytics (Bar Charts) and course category breakdowns.
 - **Filtered Audit Logs:** Filter payment records by specific date ranges, daily/monthly quick reports, or course types.
 - **Income Summaries:** Real-time tracking of total institute revenue and total transaction counts.
@@ -85,4 +85,4 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/AnjaleeIT/Global-Institute-POS.git](https://github.com/AnjaleeIT/Global-Institute-POS.git)
+   git clone [https://github.com/AnjaleeIT/Pos-System-for-Educational-Institute.git](https://github.com/AnjaleeIT/Pos-System-for-Educational-Institute.git)
