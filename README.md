@@ -4,10 +4,18 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 
 ---
 
+## 🚀 Live Demo & Deployment
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone)
+
+- **Live Demo Link:** [https://your-app-name.vercel.app](https://your-app-name.vercel.app) *(Update this link after deploying to Vercel)*
+
+---
+
 ## 📸 System Previews & Interface Showcase
 
 <details open>
-  <summary><b> 1. Authentication & System Control</b></summary>
+  <summary><b>🔐 1. Authentication & System Control</b></summary>
   <br/>
 
   | Login Portal | System Control (Admin) | Change Password |
@@ -19,7 +27,7 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 <br/>
 
 <details open>
-  <summary><b> 2. Executive & Coordinator Dashboards</b></summary>
+  <summary><b>📊 2. Executive & Coordinator Dashboards</b></summary>
   <br/>
 
   | Admin Executive Dashboard | Coordinator Operations Dashboard |
@@ -31,7 +39,7 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 <br/>
 
 <details open>
-  <summary><b> 3. Billing Operations & Fee Management</b></summary>
+  <summary><b>💳 3. Billing Operations & Fee Management</b></summary>
   <br/>
 
   | Student Payment & Billing Form | Payment Setup Page | Payment Summary Logs |
@@ -43,7 +51,7 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 <br/>
 
 <details open>
-  <summary><b> 4. Financial Reports & Analytics</b></summary>
+  <summary><b>📈 4. Financial Reports & Analytics</b></summary>
   <br/>
 
   | Admin Financial Report | Coordinator Financial Report |
@@ -54,35 +62,48 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 
 ---
 
-##  Tech Stack & Architecture
+## 🛠️ Tech Stack & Architecture
 
 - **Backend Logic:** Native PHP (Pure Server-side Scripting)
 - **Database Management:** MySQL (Relational Database)
 - **Frontend UI/UX:** HTML5, CSS3, JavaScript, Responsive Modern Dashboard UI
-- **Local Server Environment:** Apache / WAMP
+- **Deployment Platform:** Vercel / Local Apache (WAMP)
 
 ---
 
 ## ✨ Core Features & Functionalities
 
-###  1. Multi-Role Authentication System
+### 🛡️ 1. Multi-Role Authentication System
 - **Dual-Role Access:** Dedicated authentication flows for **Admin** and **Coordinators** with custom dashboard privileges.
 - **Security Control:** Integrated password change mechanism and central system blocking capability for security management.
 
-###  2. Class Fee Billing & Receipting
+### 💰 2. Class Fee Billing & Receipting
 - **Fast Billing Interface:** Interactive form to select Student ID, Course Type, Class Level, and Payment Method (Cash, etc.).
 - **Automatic Receipt Generation:** Real-time balance calculation with instant bill receipt generation for students.
 - **Dynamic Fee Setup:** Admin portal to set up and modify tuition fees per grade and course (e.g., A/L English, Grade 6-11 IT/English).
 
-###  3. Real-Time Financial Analytics & Reporting
+### 📈 3. Real-Time Financial Analytics & Reporting
 - **Interactive Visual Charts:** Income vs Date analytics (Bar Charts) and course category breakdowns.
 - **Filtered Audit Logs:** Filter payment records by specific date ranges, daily/monthly quick reports, or course types.
-- **Income Summaries:** Real-time tracking of total institute revenue and total transaction counts.
+- **Income Summaries:** Real-time tracking of total revenue and total transaction counts.
 
 ---
 
-##  Installation & Local Setup
+## 🌐 Deploying PHP on Vercel
 
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/AnjaleeIT/Pos-System-for-Educational-Institute.git](https://github.com/AnjaleeIT/Pos-System-for-Educational-Institute.git)
+To run Native PHP on Vercel, you can use serverless community runtimes (e.g., `vercel-php`).
+
+### Quick Deployment Steps:
+1. **Import** your GitHub Repository into your Vercel Account.
+2. Add a `vercel.json` file in your root directory:
+   ```json
+   {
+     "functions": {
+       "api/*.php": {
+         "runtime": "vercel-php@0.6.0"
+       }
+     },
+     "routes": [
+       { "src": "/(.*)", "dest": "/index.php" }
+     ]
+   }
