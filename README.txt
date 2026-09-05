@@ -1,18 +1,18 @@
-#  Global Institute of English & IT - Web-Based Student POS System
+# 🎓 Global Institute of English & IT - Web-Based Student POS System
 
 A custom, web-based Point of Sale (POS) and Class Fee Management System engineered for **Global Institute of English & IT**. Designed to streamline tuition fee collection, track payments, automate bill receipt generation, and provide real-time financial reporting through role-based access control (Admin & Coordinator).
 
 ---
 
-##  System Previews & Interface Showcase
+## 📸 System Previews & Interface Showcase
 
 <details open>
-  <summary><b> 1. Authentication & Role-Based Dashboards</b></summary>
+  <summary><b>🔐 1. Authentication & Role-Based Dashboards</b></summary>
   <br/>
 
   | Role Selection Login Portal | Admin Executive Dashboard | Coordinator Operations Dashboard |
   | :---: | :---: | :---: |
-  | ![Login Page](./Login%20page.png) | ![Admin Dashboard](./Admin%20dashboard.jpg) | ![Coordinator Dashboard](./Coordinator%20dashboard%20page.jpg) |
+  | <img src="./Login%20page.png" width="300" /> | <img src="./Admin%20dashboard.png" width="300" /> | <img src="./Coordinator%20dashboard%20page.png" width="300" /> |
 
 </details>
 
@@ -24,7 +24,7 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 
   | Student Payment & Billing Form | Class Fee Structure Setup | Payment History & Logs |
   | :---: | :---: | :---: |
-  | ![Class Payment](./Class%20payments%20%26%20Billing.jpg) | ![Fee Setup](./Payment%20setup%20page.png) | ![Payment Summary](./Payment%20Summary.jpg) |
+  | <img src="./Class%20payments%20%26%20Billing.png" width="300" /> | <img src="./Payment%20setup%20page.png" width="300" /> | <img src="./Payment%20Summary.png" width="300" /> |
 
 </details>
 
@@ -36,7 +36,7 @@ A custom, web-based Point of Sale (POS) and Class Fee Management System engineer
 
   | Admin Financial Analytics | Coordinator Reports Panel | System Access Control |
   | :---: | :---: | :---: |
-  | ![Financial Reports](./Financial%20reports.jpg) | ![Coordinator Reports](./C%20financial%20reports.png) | ![System Control](./System%20Control%20page.jpg) |
+  | <img src="./Financial%20reports.png" width="300" /> | <img src="./C%20financial%20reports.png" width="300" /> | <img src="./System%20Control%20page.png" width="300" /> |
 
 </details>
 
